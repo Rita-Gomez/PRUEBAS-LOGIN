@@ -16,20 +16,27 @@
      <div class="circle"></div>
      <div class="circle"></div>
      <div class="container">
-         <h1>LOGIN</h1>
-         <form action="">
-             <div class="inputBX">
+         <div class="form">
+           <h1>LOGIN</h1>
+           <form action="">
+             <div class="inputBx">
                  <input type="text" required>
                  <span>Username</span>
                  <img src="../img/user.svg" alt="user">
              </div>
              <div class="inputBx">
-                 <input type="password">
+                 <input type="password" name="password" required>
                  <span>Password</span>
-                 <!-- <img src="" alt=""> -->
+                 <img src="../img/lock.svg" alt="lock">
+             </div>
+             <div class="inputBx">
+                 <input type="submit" value="Login">
              </div>
          </form>
-     </div>
+         <p>Forgot password? <a href="#">Click here</a></p>
+         <p>Don't have an account <a href="#">Sign up</a></p>
+      </div>
+    </div>
  </div>
 </body>
 </html>
